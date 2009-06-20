@@ -1,0 +1,32 @@
+h1. Research
+
+h2. Project Summary
+
+The core idea behind Research is to use a git repository as an historic research tool, with irrevocable commit changes tied to the user who commits, that allows quick research without the hassles of logging in. Not only is one of the goals to hold the actual committer responsible for their commit, but it is also a goal to speed up the process of research itself by a simple cause and effect field mechanism. The field names chosen are:
+
+# was
+# said
+# did
+# result
+
+Which could be used in this manner:
+
+
+Johnny was *drenched by the rain* when he opened the door to the store. He *said*, "I don't like getting wet during a storm." So on the way out, he *grabbed an umbrella* and *he dry when he returned home*.
+
+
+So this methodology is meant to help a person break down sentences while researching various subjects and then make that data easy to refer to and link to from several angles.
+
+Now if we all used this properly, and pushed regularly, we could build a communal distributed body of research, with a fairly dependable base, since the goal is to make every committer of knowledge responsible for the knowledge they committed.
+
+h2. Current Progress
+
+I am currently just laying the core structure down. Models and forms are being built; the auto commits will be tied on afterwards.
+
+h2. Development Methodology
+
+I'm a firm believer in BDD and I will write stories and features first, using cucumber, before the first usable code is written. I also use HAML and Sass as pre-processors with a little bit of embeddedjs thrown in occasionally.
+
+h2. A Final Note
+
+The development.sqlite3 is intentionally in this project. It is the core of our data until this is production ready. No test data is in there at all.
