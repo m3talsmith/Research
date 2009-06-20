@@ -12,7 +12,7 @@ The core idea behind Research is to use a git repository as an historic research
 Which could be used in this manner:
 
 
-Johnny was *drenched by the rain* when he opened the door to the store. He said, *"I don't like getting wet during a storm."* So on the way out, he *grabbed an umbrella* and *he stayed dry the rest of the way as he returned home*.
+Johnny was *drenched by the rain* when he opened the door to the store. He said, *"I don't like getting wet during a storm."* *So on the way out, he grabbed an umbrella* and *he stayed dry the rest of the way as he returned home*.
 
 
 So this methodology is meant to help a person break down sentences while researching various subjects and then make that data easy to refer to and link to from several angles.
